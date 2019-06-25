@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My website</title>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" href="css/4.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="banner" id="banner">
+            <div class="banner__run-string" id="banner__run-string">
+              HELLO 
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__list_item">
+                        <a href="1.html">Главная</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a href="2.html">Фильмы</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a href="3.html">Города</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a href="4.html">Связь</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <section class="contact-form" id="contact-form">
+            <div class="contact-form__info">
+                <div class="contact-form__info_head">
+                    Свяжитеcь с нами
+                </div>
+            </div>
+            <form autocomplete="off" class="form" id="form">
+                <div class="form__control">
+                    <div class="form__control_label">
+                        Email
+                    </div>
+                    <input type="email" id="email" class="form__control_input" name="email" placeholder="Ваш e-mail">
+                </div>
+                <div class="form__control">
+                    <div class="form__control_label">
+                        Тема
+                    </div>
+                    <input type="text" id="subject" class="form__control_input" name="subject" placeholder="Тема">
+                </div>
+                <div class="form__control">
+                    <div class="form__control_label">
+                        Сообщение
+                    </div>
+                    <textarea id="message" class="form__control_area" name="text" id="textarea" placeholder="Текст"></textarea>
+                </div>
+                <div class="form__control">
+                    <button type="button" class="form__submit" onclick="submitForm()">
+                        Отправить
+                    </button>
+                </div>
+                <div class="form__alert" id="alert">
+                    <h1 class="form__alert_header">Внимание!</h1>
+                    <div class="form__alert_message">Спасибо за внимание</div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer__head">
+            <h1 class="footer__head_header">
+                Информация о сайте
+            </h1>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__content_nav">
+                <li class="footer__content_nav_item">
+                    <a href="1.html">
+                        Главная
+                    </a>
+                </li>
+                <li class="footer__content_nav_item">
+                    <a href="2.html">
+                        Фильмы
+                    </a>
+                </li>
+                <li class="footer__content_nav_item">
+                    <a href="3.html">
+                        Города
+                    </a>
+                </li>
+                <li class="footer__content_nav_item">
+                    <a href="4.html">
+                        Связь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__credits">
+            БГУИР 2018
+        </div>
+    </footer>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/email.js"></script>
+
+</html>

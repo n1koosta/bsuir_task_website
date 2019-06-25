@@ -1,0 +1,47 @@
+.main__table {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #eaeaea;
+    border: none;
+    border-collapse: collapse;
+}
+
+.main__table tr {
+    width: 80%;
+}
+
+.row_colored {
+    background-color: #dfeaa0;
+}
+
+.main__table thead tr {
+    height: 50px;
+    font-size: 20px;
+}
+
+.main__table tbody .main__table_description {
+    text-align: left;
+    padding: 0 10px;    
+}
+
+.main__table_poster {
+    width: 20%;
+}
+
+.main__table_poster > img {
+    width: 170px;
+    height: 250px;
+}
+
+.main__table_name {
+    width: 10%;
+    font-size: 20px;
+}
+
+.main__table_description {
+    width: 50%;
+}
+
+.main__table_ref {
+    width: 20%;
+}

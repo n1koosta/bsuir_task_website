@@ -1,0 +1,17 @@
+{
+    "name": "frontend-bsuir-task",
+    "version": "1.0.0",
+    "description": "html/css/js/node.js app",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Denis Mankevich",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.4",
+        "express": "4.16.2",
+        "jquery": "3.3.1",
+        "nodemailer": "^4.6.5"
+    }
+}

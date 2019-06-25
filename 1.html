@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My website</title>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" href="css/1.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="banner" id="banner">
+            <div class="banner__run-string" id="banner__run-string">
+                ПРИВЕТ!
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__list_item">
+                        <a href="1.html">Главная</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a href="2.html">Фильмы</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a href="3.html">Города</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a href="4.html">Связь</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <section class="main__info" id="main__text">
+            <div class="main__info_text">
+                Красивый текст. Очень красивый.
+            </div>
+            <div class="main__contact-button" id="main__contact-button" onclick="goTo('4.html')">
+                <div class="contact-btn" id="contact-btn">
+                    <img class="contact-btn__img" src="assets/img/phone.png" alt="Call us">
+                    <div class="contact-btn__text">
+                        Свяжитесь со мной
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer__head">
+            <h1 class="footer__head_header">
+                Информация о сайте
+            </h1>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__content_nav">
+                <li class="footer__content_nav_item">
+                    <a href="1.html">
+                        Главная
+                    </a>
+                </li>
+                <li class="footer__content_nav_item">
+                    <a href="2.html">
+                        Фильмы
+                    </a>
+                </li>
+                <li class="footer__content_nav_item">
+                    <a href="3.html">
+                        Города
+                    </a>
+                </li>
+                <li class="footer__content_nav_item">
+                    <a href="4.html">
+                        Связь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__credits">
+           БГУИР 2018
+        </div>
+    </footer>
+</body>
+
+<script src="js/common.js"></script>
+
+</html>

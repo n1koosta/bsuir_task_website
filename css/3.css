@@ -1,0 +1,38 @@
+#main {
+    background: url('../assets/img/cities-bg-1.jpg') no-repeat center;
+    padding-top: 30px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.cities__item {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 60px;
+    box-shadow: 0 10px 90px rgba(222, 222, 222, 0.42);
+}
+
+.cities__item_photo {
+    height: 200px;
+}
+
+.cities__item_photo > img {
+    width: 400px;
+    height: 200px;
+}
+
+.cities__item_info {
+    padding-left: 20px;
+    margin: auto 0;
+}
+
+.cities__item_info_head {
+    font-size: 20px;
+}
+
+.cities__item_info_body {
+    font-style: italic;
+}
